@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+default-init-method="init" default-destroy-method="destroy">
+    <!--<bean id="helloWorld" class="com.rajtechnologies.HelloWorld" scope="prototype"-->
+    <!-- if we use the prototype scope , bean lifecyle initialization will work but not work the destroy so need to call manually-->
+    <!--<bean id="helloWorld" class="com.rajtechnologies.HelloWorld" init-method="init" destroy-method="destroy"-->
+    <bean id="helloWorld" class="com.rajtechnologies.HelloWorld" init-method="init" destroy-method="destroy" >
+        <!--property name="message" value="Hello World"/-->
+    </bean>
+    <bean class="com.rajtechnologies.InitHelloWorld"/>
+    <bean id="employee" class="com.rajtechnologies.Employee">
+        <property name="name" value="Obul Reddy"/>
+        <property name="age" value="20"/>
+        <property name="address" value="nellore"/>
+    </bean>
+<!--    <bean id="department" class="com.rajtechnologies.Department" parent="employee">-->
+<!--        <property name="departmentName" value="account"/>-->
+<!--    </bean>-->
+    <bean id="beanTemplate" abstract="true">
+        <property name="name" value="Obul Reddy"/>
+        <property name="age" value="20"/>
+        <property name="address" value="nellore"/>
+    </bean>
+    <bean id="department" class="com.rajtechnologies.Department" parent="beanTemplate">
+        <property name="departmentName" value="account"/>
+    </bean>
+    <!-- Injecting inner beans-->
+    <bean id="customer" class="com.rajtechnologies.Customer">
+        <property name="passport">
+
+            <bean id="passport" class="com.rajtechnologies.Passport">
+                <property name="passportNumber" value="1232323232"/>
+                    </bean>
+        </property>
+        
+    </bean>
+    <bean name="javaCollection" class="com.rajtechnologies.JavaCollection">
+    <property name="addressList">
+
+        <list>
+            <value>India</value>
+            <value>Pakistan</value>
+            <value>Belgium</value>
+            <value>Germany</value>
+        </list>
+    </property>
+        <property name="addressSet">
+
+            <set>
+                <value>India</value>
+                <value>India</value>
+                <value>Belgium</value>
+                <value>Germany</value>
+            </set>
+        </property>
+        <property name="addressMap">
+
+            <map>
+
+                <entry key="address1" value="India"/>
+                <entry key="address2" value="Pakistan"/>
+                <entry key="address3" value="USA"/>
+            </map>
+        </property>
+        <property name="addressProp">
+            <props>
+                <prop key="address1">Germany</prop>
+                <prop key="address2">Belgium</prop>
+            </props>
+
+        </property>
+    </bean>
+</beans>
