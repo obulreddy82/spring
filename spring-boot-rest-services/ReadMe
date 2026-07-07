@@ -1,0 +1,191 @@
+Common Docker Workflow for Spring Boot
+1. Build the image/ Build docker image
+
+docker build -t spring-boot-rest-services .
+spring-boot-rest-services==> image name
+2. Run the container
+
+detached
+
+docker run -d -name spring-app -p 9090:9090 spring-boot-rest-services
+9090(container port):9090(application port)
+3. If your Dockerfile has a different name
+For example:
+
+Dockerfile.dev
+
+then use:
+
+docker build -f Dockerfile.dev -t spring-boot-rest-services .
+
+4. View logs:
+docker logs spring-app
+Follow logs:
+docker logs -f spring-app
+5. List running containers:
+Running
+docker ps
+All
+docker ps -a
+6. Stop the container:
+docker stop spring-app
+spring-app==> container-id
+7. Remove the container:
+docker rm spring-app
+spring-app==> container-id
+
+  7.1 Force remove:
+  docker rm -f <container-id>
+
+8. List Images
+
+docker images
+9. Remove the image
+   docker rmi spring-boot-rest-services
+
+10. docker compose
+
+docker compose with postgresql
+
+version: '3.8'
+
+services:
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+
+  springboot:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/mydb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+    depends_on:
+      - postgres
+
+    Start:
+
+    docker compose up
+
+    Stop:
+
+    docker compose down
+11. Execute Commands Inside Container
+
+docker exec -it <container-id> bash
+
+Or if Bash isn't installed:
+
+docker exec -it <container-id> sh
+
+12. Inspect Container
+docker inspect <container-id>
+
+13. Network Example
+
+docker network create spring-network
+
+14. Volume Example
+
+    Create volume:
+
+    docker volume create postgres-data
+
+15. Build Without Cache
+docker build --no-cache -t springboot-demo .
+
+16. Tag Image
+
+docker tag springboot-demo:latest springboot-demo:v1
+
+17. Push to Docker Hub
+
+Login:
+docker login
+
+Tag:
+
+docker tag springboot-demo username/springboot-demo:v1
+
+Push:
+
+docker push username/springboot-demo:v1
+
+18. Useful Cleanup Commands
+
+Remove stopped containers:
+
+docker container prune
+
+Remove unused images:
+
+docker image prune
+
+Remove everything unused:
+
+docker system prune
+
+Remove everything including volumes:
+
+docker system prune -a --volumes
+
+19. Passing Environment Variables
+
+Suppose your application uses:
+
+spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWORD}
+
+Run:
+
+docker run \
+-p 8080:8080 \
+-e DB_URL=jdbc:postgresql://host.docker.internal:5432/mydb \
+-e DB_USER=postgres \
+-e DB_PASSWORD=password \
+springboot-demo
+
+20. Mount application.properties
+
+docker run \
+-p 8080:8080 \
+-v $(pwd)/application.properties:/app/application.properties \
+springboot-demo \
+--spring.config.location=file:/app/application.properties
+
+21. Multi-stage Build (Recommended)
+
+# Build stage
+FROM maven:3.9-eclipse-temurin-21 AS build
+
+WORKDIR /app
+
+COPY pom.xml .
+COPY src ./src
+
+RUN mvn clean package -DskipTests
+
+# Runtime stage
+FROM eclipse-temurin:21-jre
+
+WORKDIR /app
+
+COPY --from=build /app/target/*.jar app.jar
+
+ENTRYPOINT ["java","-jar","app.jar"]
+
+Build:
+
+docker build -t springboot-demo .
+
+
+
