@@ -21,6 +21,7 @@ public class JobController {
     public String runCustomerJob() throws Exception {
         Properties parameters = new Properties();
         parameters.setProperty("timestamp", String.valueOf(System.currentTimeMillis()));
+        parameters.setProperty("fileName", "customers_dynamic.json");
 
         jobOperator.start("customerJob", parameters);
         return "Customer job started";
