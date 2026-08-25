@@ -2,5 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-ai/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-integration-jms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-integration-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-integration-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rest-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,19 @@
+GET http://localhost:8080/home
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+
+<> 2026-08-25T121631.200.html
+
+###
+
+GET http://localhost:8080/rag?question="Obul?"
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-07T192059.200.txt
+
+###
+

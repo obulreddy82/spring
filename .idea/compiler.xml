@@ -2,25 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-core" />
+        <module name="spring-mvc" />
+        <module name="spring-boot-integration-mail" />
+        <module name="spring-boot-integration-kafka" />
+        <module name="spring-core-annotation" />
         <module name="spring-ai" />
+        <module name="spring-boot-batch" />
+        <module name="spring-boot-rest-services" />
+        <module name="spring-boot-integration-jms" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-boot-integration-jms" target="17" />
-      <module name="spring-boot-integration-kafka" target="17" />
-      <module name="spring-boot-integration-mail" target="17" />
-      <module name="spring-boot-rest-services" target="17" />
-      <module name="spring-core" target="22" />
-      <module name="spring-core-annotation" target="22" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-ai" options="-parameters" />
+      <module name="spring-boot-batch" options="-parameters" />
+      <module name="spring-boot-integration-jms" options="-parameters" />
+      <module name="spring-boot-integration-kafka" options="-parameters" />
+      <module name="spring-boot-integration-mail" options="-parameters" />
+      <module name="spring-boot-rest-services" options="-parameters" />
+      <module name="spring-mvc" options="-parameters" />
     </option>
   </component>
 </project>

@@ -5,6 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/spring-ai/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-batch/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-integration-jms/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-integration-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-integration-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-services/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
       </list>
     </option>
   </component>
