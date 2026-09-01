@@ -5,81 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fddc7ed-377e-461e-bb88-a346f2d4cf9b" name="Changes" comment="spring-mvc">
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-07-07T192059.200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-08-25T121631.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/SpringAiDemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/config/MemoryConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/config/RagConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/controller/ChatController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/controller/MemoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/controller/RagController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/dto/MovieReview.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/classes/com/rajtechnologies/tools/WeatherTools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/spring-ai-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ai/target/spring-ai-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/SpringBootBatchFileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/resources/customers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/test/java/com/rajtechnologies/springbootbatchfile/SpringBootBatchFileApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/src/main/java/com/rajtechnologies/springbootbatch/SpringBootBatchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-batch/src/test/java/com/rajtechnologies/springbootbatch/SpringBootBatchApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-integration-jms/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/SpringMvcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/dto/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/dto/UserRegistrationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/exception/InvalidCredentialsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/exception/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/validation/PasswordMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/validation/PasswordMatchValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/fragments/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/test/java/com/rajtechnologies/springmvc/SpringMvcApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rest-services/src/main/java/com/rajtechnologies/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rest-services/src/test/java/com/rajtechnologies/controller/BookControllerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rest-services/src/test/java/com/rajtechnologies/controller/BookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/employee_save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/rajtech.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/config/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/config/BatchConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/controller/JobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch-file/src/main/java/com/rajtechnologies/springbootbatchfile/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rest-services/src/main/java/com/rajtechnologies/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-rest-services/src/main/java/com/rajtechnologies/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/resources/templates/employee.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -137,17 +76,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #20.executor": "Run",
+    "HTTP Request.generated-requests | #22.executor": "Run",
     "HTTP Request.generated-requests | #3.executor": "Run",
     "HTTP Request.generated-requests | #4.executor": "Run",
     "HTTP Request.generated-requests | #5.executor": "Run",
+    "JUnit.BookControllerIT.getAllBooks.executor": "Run",
+    "JUnit.BookControllerTest.executor": "Coverage",
+    "JUnit.BookControllerTest.getAllBooks.executor": "Run",
+    "JUnit.BookControllerTest.givenCalculator_whenAdd_thenSum.executor": "Run",
+    "JUnit.BookControllerTest.multipleTestScenariosForCalculator.executor": "Run",
+    "JUnit.BookControllerTest.multipleTestScenariosForCalculator_methodSource.executor": "Run",
     "Maven.spring-ai [clean,install,-U].executor": "Run",
     "Maven.spring-ai [clean].executor": "Run",
     "Maven.spring-ai [install].executor": "Run",
@@ -165,13 +110,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Main (1).executor": "Run",
     "Spring Boot.Main (2).executor": "Debug",
-    "Spring Boot.Main (3).executor": "Run",
+    "Spring Boot.Main (3).executor": "Debug",
     "Spring Boot.Main.executor": "Debug",
     "Spring Boot.SpringAiDemoApplication.executor": "Debug",
     "Spring Boot.SpringMvcApplication.executor": "Debug",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Obul/Learning/spring/spring-boot-rest-services/src/main/java/com/rajtechnologies",
     "last_opened_file_path": "C:/Obul/Learning/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -194,7 +142,14 @@
       <recent name="C:\Obul\Learning\spring\spring-ai" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Obul\Learning\spring\spring-mvc\src\main\resources\templates" />
       <recent name="C:\Obul\Learning\spring" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.rajtechnologies.controller" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -212,23 +167,87 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringMvcApplication">
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.BookControllerIT.getAllBooks">
+    <configuration name="BookControllerIT.getAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rest-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rajtechnologies.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rajtechnologies.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rajtechnologies.controller.BookControllerIT" />
+      <option name="METHOD_NAME" value="getAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests | #20" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#20" index="20" runType="Run single request">
-      <method v="2" />
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rest-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rajtechnologies.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rajtechnologies.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rajtechnologies.controller.BookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#3" index="3" runType="Run single request">
-      <method v="2" />
+    <configuration name="BookControllerTest.givenCalculator_whenAdd_thenSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rest-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rajtechnologies.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rajtechnologies.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rajtechnologies.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="givenCalculator_whenAdd_thenSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#4" index="4" runType="Run single request">
-      <method v="2" />
+    <configuration name="BookControllerTest.multipleTestScenariosForCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rest-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rajtechnologies.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rajtechnologies.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rajtechnologies.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="multipleTestScenariosForCalculator(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#5" index="5" runType="Run single request">
-      <method v="2" />
+    <configuration name="BookControllerTest.multipleTestScenariosForCalculator_methodSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-rest-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rajtechnologies.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rajtechnologies.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.rajtechnologies.controller.BookControllerTest" />
+      <option name="METHOD_NAME" value="multipleTestScenariosForCalculator_methodSource(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Main (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="spring-boot-rest-services" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rajtechnologies.Main" />
@@ -260,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #20" />
-        <item itemvalue="HTTP Request.generated-requests | #5" />
-        <item itemvalue="HTTP Request.generated-requests | #4" />
-        <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="JUnit.BookControllerIT.getAllBooks" />
+        <item itemvalue="JUnit.BookControllerTest.multipleTestScenariosForCalculator_methodSource" />
+        <item itemvalue="JUnit.BookControllerTest.multipleTestScenariosForCalculator" />
+        <item itemvalue="JUnit.BookControllerTest.givenCalculator_whenAdd_thenSum" />
+        <item itemvalue="JUnit.BookControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +312,23 @@
       <workItem from="1787062001526" duration="3860000" />
       <workItem from="1787603269592" duration="164000" />
       <workItem from="1787603448496" duration="3941000" />
-      <workItem from="1787644188669" duration="12435000" />
+      <workItem from="1787644188669" duration="27637000" />
+      <workItem from="1787752241186" duration="5864000" />
+      <workItem from="1787815644715" duration="2290000" />
+      <workItem from="1787826071898" duration="785000" />
+      <workItem from="1787827397966" duration="1195000" />
+      <workItem from="1787835123148" duration="1487000" />
+      <workItem from="1787836998416" duration="40000" />
+      <workItem from="1788004933854" duration="2932000" />
+      <workItem from="1788032105115" duration="1723000" />
+      <workItem from="1788065119177" duration="927000" />
+      <workItem from="1788082483412" duration="680000" />
+      <workItem from="1788085830921" duration="1387000" />
+      <workItem from="1788093618479" duration="728000" />
+      <workItem from="1788094802839" duration="1446000" />
+      <workItem from="1788096614226" duration="565000" />
+      <workItem from="1788097205206" duration="8220000" />
+      <workItem from="1788254806469" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="spring-core initial learning">
       <option name="closed" value="true" />
@@ -351,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783439093623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="spring-mvc">
+      <option name="closed" value="true" />
+      <created>1787667366988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787667366988</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,18 +648,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/HomeController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/HomeController.java</url>
           <line>25</line>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.2.18/spring-web-6.2.18.jar!/org/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite.class</url>
-          <line>40</line>
-          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/6.2.18/spring-webmvc-6.2.18-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/AsyncTaskMethodReturnValueHandler.java</url>
@@ -624,19 +657,54 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/6.2.18/spring-webmvc-6.2.18-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java</url>
-          <line>1097</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/6.2.18/spring-webmvc-6.2.18-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
-          <line>1144</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/advice/GlobalExceptionHandler.java</url>
           <line>23</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/AuthController.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/AuthController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/EmployeeController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/service/EmployeeService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-rest-services/src/main/java/com/rajtechnologies/controller/BookController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/controller/EmployeeController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/service/EmployeeService.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc/src/main/java/com/rajtechnologies/springmvc/service/EmployeeService.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-rest-services/src/test/java/com/rajtechnologies/controller/BookControllerTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/activemq/artemis-server/2.40.0/artemis-server-2.40.0.jar!/org/apache/activemq/artemis/core/server/MemoryManager.class</url>
@@ -658,5 +726,15 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.commons.csv.CSVParser$Headers" memberName="headerMap" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring$BookControllerTest.ic" NAME="BookControllerTest Coverage Results" MODIFIED="1788255421749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.rajtechnologies.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>

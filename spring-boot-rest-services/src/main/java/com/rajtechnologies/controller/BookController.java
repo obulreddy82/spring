@@ -11,7 +11,6 @@ import java.util.List;
 @RequestMapping("/api/books")
 public class BookController {
 
-    @Autowired
     private final BookService bookService;
 
     public BookController(BookService bookService) {
@@ -33,5 +32,9 @@ public class BookController {
     public String deleteAllBooks() {
         bookService.deleteAll();
         return "All books have been deleted.";
+    }
+
+    public int calculator(int a, int b){
+        return a+b;
     }
 }

@@ -2,25 +2,28 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head th:replace="~{fragments/layout :: head('Employee Details - Spring MVC')}"></head>
 <body>
+Employee Details:
 <div>
-    <table>
-
+    <table border="1">
+        <tr>
+            <td colspan="4" align="center" ><b>Employee Details</b></td>
+        </tr>
+        <tr th:if="${employees.isEmpty()}">
+            <td colspan="4">No Employee Found</td>
+        </tr>
         <tr>
             <td>Employee Name</td>
-            <td th:text="${employee.name}"></td>
-        </tr>
-        <tr>
             <td>Employee Designation</td>
-            <td th:text="${employee.designation}"></td>
-        </tr>
-        <tr>
             <td>Employee Age</td>
-            <td th:text="${employee.age}"></td>
-        </tr>
-        <tr>
             <td>Employee Sex</td>
+        </tr>
+        <tr th:each="employee : ${employees}">
+            <td th:text="${employee.name}"></td>
+            <td th:text="${employee.designation}"></td>
+            <td th:text="${employee.age}"></td>
             <td th:text="${employee.sex}"></td>
         </tr>
+
     </table>
 
 </div>
