@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "name": "Lovely",
+      "email": "r.o@gmail.com",
+      "age": "10"
+    },
+    {
+      "name": "Krishana",
+      "email": "r.o@gmail.com",
+      "age": "15"
+    },
+    {
+      "name": "Suman",
+      "email": "r.o@gmail.com",
+      "age": "9"
+    },
+    {
+      "name": "Bade",
+      "email": "r.o@gmail.com",
+      "age": "20"
+    },
+    {
+      "name": "Lagi",
+      "email": "r.o@gmail.com",
+      "age": "25"
+    },
+    {
+      "name": "Srinivas",
+      "email": "r.o@gmail.com",
+      "age": "30"
+    },
+    {
+      "name": "Madhu",
+      "email": "r.o@gmail.com",
+      "age": "35"
+    },
+    {
+      "name": "Chinna",
+      "email": "r.o@gmail.com",
+      "age": "40"
+    },
+    {
+      "name": "Buddy",
+      "email": "r.o@gmail.com",
+      "age": "45"
+    },
+    {
+      "name": "Chaddi",
+      "email": "r.o@gmail.com",
+      "age": "50"
+    },
+    {
+      "name": "Jaddi",
+      "email": "r.o@gmail.com",
+      "age": "55"
+    }
+  ]
+}

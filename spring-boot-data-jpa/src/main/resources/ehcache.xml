@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config
+        xmlns="http://www.ehcache.org/v3"
+        xmlns:jsr107="http://www.ehcache.org/v3/jsr107">
+
+    <!-- Location where Ehcache stores persistent data -->
+    <persistence directory="cache-data"/>
+
+    <!-- Default cache template -->
+    <cache-template name="hibernateTemplate">
+
+        <key-type>java.lang.Object</key-type>
+        <value-type>java.lang.Object</value-type>
+
+        <resources>
+            <!-- Keep up to 1000 entries in RAM -->
+            <heap unit="entries">1000</heap>
+
+            <!-- Keep up to 500 MB on disk -->
+            <disk unit="MB">500</disk>
+        </resources>
+
+        <expiry>
+            <!-- Cache entry expires after 1 hour -->
+            <ttl unit="hours">1</ttl>
+        </expiry>
+
+    </cache-template>
+
+</config>
