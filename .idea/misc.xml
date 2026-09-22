@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/spring-core/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-security/spring-boot-security-inmemory-credentials/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fddc7ed-377e-461e-bb88-a346f2d4cf9b" name="Changes" comment="spring-mvc">
-      <change afterPath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/event/CustomerEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/listener/CustomerIdListen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/listener/CustomerMailSent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/spring-boot-security-inmemory-credentials/src/main/java/com/rajtechnologies/springbootsecurityinmemorycredentials/config/AppSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/spring-boot-security-inmemory-credentials/src/main/java/com/rajtechnologies/springbootsecurityinmemorycredentials/controller/SpringSecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/src/main/java/com/rajtechnologies/springbootsecurity/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/src/main/java/com/rajtechnologies/springbootsecurity/controller/SpringSecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-spring-security-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-spring-security-example/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-spring-security-example/src/main/java/com/example/jwtspringsecurity/config/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-spring-security-example/src/main/java/com/example/jwtspringsecurity/config/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-spring-security-example/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-spring-security-example/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwt-spring-security-example/src/test/java/com/example/jwtspringsecurity/JwtSpringSecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-spring-security-example/src/test/java/com/example/jwtspringsecurity/JwtSpringSecurityApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/config/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/config/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-data-jpa/src/main/java/com/rajtechnologies/springbootdatajpa/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,63 +73,69 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #20.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #22.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookControllerIT.getAllBooks.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookControllerTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.BookControllerTest.getAllBooks.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookControllerTest.givenCalculator_whenAdd_thenSum.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookControllerTest.multipleTestScenariosForCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BookControllerTest.multipleTestScenariosForCalculator_methodSource.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-ai [clean,install,-U].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-ai [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-ai [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-boot-integration-mail [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-boot-rest-services [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-boot-rest-services [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-mvc [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-mvc [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.spring-mvc [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Main (2).executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.Main (3).executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.SpringAiDemoApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.SpringMvcApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Obul/Learning/spring/spring-boot-rest-services/src/main/java/com/rajtechnologies&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Obul/Learning/spring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "HTTP Request.generated-requests | #20.executor": "Run",
+    "HTTP Request.generated-requests | #22.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "HTTP Request.generated-requests | #5.executor": "Run",
+    "JUnit.BookControllerIT.getAllBooks.executor": "Run",
+    "JUnit.BookControllerTest.executor": "Coverage",
+    "JUnit.BookControllerTest.getAllBooks.executor": "Run",
+    "JUnit.BookControllerTest.givenCalculator_whenAdd_thenSum.executor": "Run",
+    "JUnit.BookControllerTest.multipleTestScenariosForCalculator.executor": "Run",
+    "JUnit.BookControllerTest.multipleTestScenariosForCalculator_methodSource.executor": "Run",
+    "Maven.spring-ai [clean,install,-U].executor": "Run",
+    "Maven.spring-ai [clean].executor": "Run",
+    "Maven.spring-ai [install].executor": "Run",
+    "Maven.spring-boot-integration-mail [clean].executor": "Run",
+    "Maven.spring-boot-rest-services [clean].executor": "Run",
+    "Maven.spring-boot-rest-services [install].executor": "Run",
+    "Maven.spring-boot-security [clean].executor": "Run",
+    "Maven.spring-boot-security [install].executor": "Run",
+    "Maven.spring-boot-security-inmemory-credentials [clean].executor": "Run",
+    "Maven.spring-boot-security-inmemory-credentials [install].executor": "Run",
+    "Maven.spring-mvc [clean].executor": "Run",
+    "Maven.spring-mvc [compile].executor": "Run",
+    "Maven.spring-mvc [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Main (1).executor": "Run",
+    "Spring Boot.Main (2).executor": "Debug",
+    "Spring Boot.Main (3).executor": "Debug",
+    "Spring Boot.Main.executor": "Debug",
+    "Spring Boot.SpringAiDemoApplication.executor": "Debug",
+    "Spring Boot.SpringBootSecurityApplication.executor": "Debug",
+    "Spring Boot.SpringBootSecurityInmemoryCredentialsApplication.executor": "Debug",
+    "Spring Boot.SpringMvcApplication.executor": "Debug",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Obul/Learning/spring/spring-boot-rest-services/src/main/java/com/rajtechnologies",
+    "last_opened_file_path": "C:/Obul/Learning/spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -167,7 +169,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookControllerIT.getAllBooks">
+  <component name="RunManager" selected="Spring Boot.SpringBootSecurityInmemoryCredentialsApplication">
     <configuration name="BookControllerIT.getAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-rest-services" />
       <extension name="coverage">
@@ -269,6 +271,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rajtechnologies.springbootsecurity.SpringBootSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSecurityInmemoryCredentialsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-security-inmemory-credentials" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rajtechnologies.springbootsecurityinmemorycredentials.SpringBootSecurityInmemoryCredentialsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="spring-mvc" />
@@ -334,6 +350,7 @@
       <workItem from="1788499522449" duration="1406000" />
       <workItem from="1788858558419" duration="2485000" />
       <workItem from="1789715589815" duration="592000" />
+      <workItem from="1790059482762" duration="7002000" />
     </task>
     <task id="LOCAL-00001" summary="spring-core initial learning">
       <option name="closed" value="true" />
@@ -407,11 +424,30 @@
       <option name="project" value="LOCAL" />
       <updated>1788264762055</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="spring-mvc">
+      <option name="closed" value="true" />
+      <created>1790059509736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1790059509737</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring-core initial learning" />

@@ -9,7 +9,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-core" />
         <module name="spring-mvc" />
+        <module name="spring-boot-security-inmemory-credentials" />
         <module name="spring-boot-integration-mail" />
+        <module name="spring-boot-security" />
         <module name="spring-boot-integration-kafka" />
         <module name="spring-core-annotation" />
         <module name="spring-ai" />
@@ -27,6 +29,8 @@
       <module name="spring-boot-integration-kafka" options="-parameters" />
       <module name="spring-boot-integration-mail" options="-parameters" />
       <module name="spring-boot-rest-services" options="-parameters" />
+      <module name="spring-boot-security" options="-parameters" />
+      <module name="spring-boot-security-inmemory-credentials" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
     </option>
   </component>
