@@ -11,8 +11,8 @@ import java.util.List;
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
-//    @EntityGraph(attributePaths = "orders")
-//    List<Customer> findAll();
+   // @EntityGraph(attributePaths = "orders")
+    //List<Customer> findAll();
 
 //    @Query("""
 //    SELECT DISTINCT c

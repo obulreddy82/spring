@@ -1,12 +1,14 @@
 package com.rajtechnologies.springbootdatajpa.service;
 
 import com.rajtechnologies.springbootdatajpa.entity.Customer;
+import com.rajtechnologies.springbootdatajpa.event.CustomerEvent;
 import com.rajtechnologies.springbootdatajpa.model.CustomerRequest;
 import com.rajtechnologies.springbootdatajpa.model.CustomersRequest;
 import com.rajtechnologies.springbootdatajpa.repository.CustomerRepository;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import jakarta.transaction.Transactional;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,15 +20,20 @@ public class CustomerService {
         System.out.println("Customer Service Init");
     }
     private final CustomerRepository customerRepository;
+    private final ApplicationEventPublisher eventPublisher;
 
-    public CustomerService(CustomerRepository customerRepository) {
+    public CustomerService(CustomerRepository customerRepository,ApplicationEventPublisher eventPublisher) {
         System.out.println("Customer Service Constructor");
         this.customerRepository = customerRepository;
+        this.eventPublisher = eventPublisher;
     }
 
+    @Transactional
     public Customer saveCustomer(CustomerRequest customerRequest) {
 
-        customerRepository.save(customerRequest.getCustomer());
+        Customer save = customerRepository.save(customerRequest.getCustomer());
+        //publish the customer id
+        eventPublisher.publishEvent(new CustomerEvent(save.getId()));
         return customerRequest.getCustomer();
     }
 
