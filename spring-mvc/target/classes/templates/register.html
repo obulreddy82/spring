@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="~{fragments/layout :: head('Register - Spring MVC')}"></head>
+<body class="auth-page">
+<div class="container">
+    <div class="card auth-card">
+        <div class="card-header">
+            <h1>Create Account</h1>
+            <p>Register to access your dashboard</p>
+        </div>
+
+        <div th:if="${successMessage}" class="alert alert-success" th:text="${successMessage}"></div>
+        <div th:if="${errorMessage}" class="alert alert-error" th:text="${errorMessage}"></div>
+
+        <form th:action="@{/register}" th:object="${userRegistrationDto}" method="post" novalidate>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" th:field="*{fullName}" placeholder="John Doe"
+                       th:classappend="${#fields.hasErrors('fullName')} ? 'input-error'">
+                <span class="field-error" th:if="${#fields.hasErrors('fullName')}" th:errors="*{fullName}"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" th:field="*{username}" placeholder="johndoe"
+                       th:classappend="${#fields.hasErrors('username')} ? 'input-error'">
+                <span class="field-error" th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" th:field="*{email}" placeholder="john@example.com"
+                       th:classappend="${#fields.hasErrors('email')} ? 'input-error'">
+                <span class="field-error" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" th:field="*{password}" placeholder="Min 8 chars, mixed case, digit &amp; symbol"
+                       th:classappend="${#fields.hasErrors('password')} ? 'input-error'">
+                <span class="field-error" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" th:field="*{confirmPassword}" placeholder="Re-enter password"
+                       th:classappend="${#fields.hasErrors('confirmPassword')} ? 'input-error'">
+                <span class="field-error" th:if="${#fields.hasErrors('confirmPassword')}" th:errors="*{confirmPassword}"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
+        </form>
+
+        <p class="auth-footer">
+            Already have an account? <a th:href="@{/login}">Sign in</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

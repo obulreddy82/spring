@@ -1,0 +1,23 @@
+<html>
+<head> <title>Employee Save</title> </head>
+<body>
+<form th:action="@{/employee/save}" th:object="${employee}" method="post">
+    <label>Employee Name:
+        <input type="text" id="name" th:field="*{name}"/>
+    </label>
+    <label>Employee Designation:
+        <input type="text" id="designation" th:field="*{designation}"/>
+    </label>
+    <label>Employee Age:
+        <input type="text" id="age" th:field="*{age}"/>
+    </label>
+    <label>Employee Sex:
+        <input type="text" id="sex" th:field="*{sex}"/>
+    </label>
+    <input type="submit" value="Save"/>
+
+</form>
+
+</body>
+
+</html>
